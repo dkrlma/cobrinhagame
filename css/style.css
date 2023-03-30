@@ -1,0 +1,44 @@
+body {
+    background-color: #222;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 3rem;
+    margin-top: 1rem;
+  }
+  
+  #snake {
+    display: block;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  canvas {
+    display: block;
+    margin: auto;
+    border: 5px solid #fff;
+    border-radius: 10px;
+  }
+  
+  button {
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  button:hover {
+    background-color: #ddd;
+  }
+  
